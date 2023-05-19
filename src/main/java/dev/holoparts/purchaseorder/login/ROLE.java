@@ -1,5 +1,10 @@
 package dev.holoparts.purchaseorder.login;
 
+import java.util.Map;
+import java.util.function.Function;
+import java.util.stream.Collectors;
+import java.util.stream.Stream;
+
 public enum ROLE {
 
     CONTRACT(1, "CNTR")
@@ -10,19 +15,32 @@ public enum ROLE {
     , RELEASE(6, "RLSE");
 
     private Integer roleNum;
-    private String role;
+    private String roleStr;
 
 
-    ROLE(Integer roleNum, String role) {
+    ROLE(Integer roleNum, String roleStr) {
         this.roleNum = roleNum;
-        this.role = role;
+        this.roleStr = roleStr;
     }
 
     public Integer getRoleNum() {
         return roleNum;
     }
 
-    public String getRole() {
-        return role;
+    public String getRoleStr() {
+        return roleStr;
     }
+
+    public void setRoleStr(Integer roleNum) {
+        this.roleNum = roleNum;
+    }
+
+    public static ROLE ofNumber(Integer roleNum) {
+        return BY_NUMBER().get(roleNum);
+    }
+
+    private static final Map<Integer, ROLE> BY_NUMBER() {
+        return Stream.of(values()).collect(Collectors.toMap(ROLE::getRoleNum, Function.identity()));
+    }
+
 }
