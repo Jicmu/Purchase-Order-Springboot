@@ -1,5 +1,6 @@
 package dev.holoparts.purchaseorder.login.entity;
 
+import dev.holoparts.purchaseorder.BaseTimeEntity;
 import dev.holoparts.purchaseorder.login.ROLE;
 import jakarta.persistence.*;
 import lombok.*;
@@ -9,7 +10,7 @@ import lombok.*;
 @NoArgsConstructor
 @AllArgsConstructor
 @Builder
-public class Member {
+public class Member extends BaseTimeEntity {
 
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
