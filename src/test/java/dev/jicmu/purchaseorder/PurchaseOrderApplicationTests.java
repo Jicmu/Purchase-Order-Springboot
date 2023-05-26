@@ -1,4 +1,4 @@
-package dev.holoparts.purchaseorder;
+package dev.jicmu.purchaseorder;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;

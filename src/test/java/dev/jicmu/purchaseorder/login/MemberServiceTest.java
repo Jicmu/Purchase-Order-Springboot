@@ -1,8 +1,8 @@
-package dev.holoparts.purchaseorder.login;
+package dev.jicmu.purchaseorder.login;
 
-import dev.holoparts.purchaseorder.login.dto.MemberDto;
-import dev.holoparts.purchaseorder.login.repository.MemberRepository;
-import dev.holoparts.purchaseorder.login.service.MemberService;
+import dev.jicmu.purchaseorder.login.dto.MemberDto;
+import dev.jicmu.purchaseorder.login.repository.MemberRepository;
+import dev.jicmu.purchaseorder.login.service.MemberService;
 import org.junit.jupiter.api.AfterEach;
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;

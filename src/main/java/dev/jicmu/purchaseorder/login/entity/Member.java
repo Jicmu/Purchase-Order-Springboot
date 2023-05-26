@@ -1,7 +1,7 @@
-package dev.holoparts.purchaseorder.login.entity;
+package dev.jicmu.purchaseorder.login.entity;
 
-import dev.holoparts.purchaseorder.BaseTimeEntity;
-import dev.holoparts.purchaseorder.login.ROLE;
+import dev.jicmu.purchaseorder.BaseTimeEntity;
+import dev.jicmu.purchaseorder.login.ROLE;
 import jakarta.persistence.*;
 import lombok.*;
 

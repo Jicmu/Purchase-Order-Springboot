@@ -1,4 +1,4 @@
-package dev.holoparts.purchaseorder.login;
+package dev.jicmu.purchaseorder.login;
 
 import java.util.Map;
 import java.util.function.Function;

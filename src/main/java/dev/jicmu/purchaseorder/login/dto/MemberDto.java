@@ -1,7 +1,7 @@
-package dev.holoparts.purchaseorder.login.dto;
+package dev.jicmu.purchaseorder.login.dto;
 
-import dev.holoparts.purchaseorder.login.ROLE;
-import dev.holoparts.purchaseorder.login.entity.Member;
+import dev.jicmu.purchaseorder.login.ROLE;
+import dev.jicmu.purchaseorder.login.entity.Member;
 import lombok.*;
 
 @Getter

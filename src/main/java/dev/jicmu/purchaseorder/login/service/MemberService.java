@@ -1,10 +1,9 @@
-package dev.holoparts.purchaseorder.login.service;
+package dev.jicmu.purchaseorder.login.service;
 
-import dev.holoparts.purchaseorder.login.dto.MemberDto;
-import dev.holoparts.purchaseorder.login.entity.Member;
-import dev.holoparts.purchaseorder.login.repository.MemberRepository;
+import dev.jicmu.purchaseorder.login.dto.MemberDto;
+import dev.jicmu.purchaseorder.login.entity.Member;
+import dev.jicmu.purchaseorder.login.repository.MemberRepository;
 import jakarta.transaction.Transactional;
-import lombok.Builder;
 import lombok.RequiredArgsConstructor;
 import org.springframework.security.crypto.password.PasswordEncoder;
 import org.springframework.stereotype.Service;

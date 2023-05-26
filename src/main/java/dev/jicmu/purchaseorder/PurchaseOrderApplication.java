@@ -1,4 +1,4 @@
-package dev.holoparts.purchaseorder;
+package dev.jicmu.purchaseorder;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

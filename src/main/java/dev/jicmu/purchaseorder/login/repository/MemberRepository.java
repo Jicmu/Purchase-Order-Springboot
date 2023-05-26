@@ -1,6 +1,6 @@
-package dev.holoparts.purchaseorder.login.repository;
+package dev.jicmu.purchaseorder.login.repository;
 
-import dev.holoparts.purchaseorder.login.entity.Member;
+import dev.jicmu.purchaseorder.login.entity.Member;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.data.jpa.repository.Query;
 import org.springframework.data.repository.query.Param;

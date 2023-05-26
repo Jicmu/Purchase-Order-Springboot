@@ -1,4 +1,4 @@
-package dev.holoparts.purchaseorder;
+package dev.jicmu.purchaseorder;
 
 import jakarta.persistence.EntityListeners;
 import jakarta.persistence.MappedSuperclass;

@@ -1,6 +1,6 @@
-package dev.holoparts.purchaseorder.login.service;
+package dev.jicmu.purchaseorder.login.service;
 
-import dev.holoparts.purchaseorder.login.entity.Member;
+import dev.jicmu.purchaseorder.login.entity.Member;
 import lombok.RequiredArgsConstructor;
 import org.springframework.security.core.userdetails.User;
 import org.springframework.security.core.userdetails.UserDetails;

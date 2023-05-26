@@ -1,6 +1,6 @@
-package dev.holoparts.purchaseorder.config;
+package dev.jicmu.purchaseorder.config;
 
-import dev.holoparts.purchaseorder.login.RoleRequestConverter;
+import dev.jicmu.purchaseorder.login.RoleRequestConverter;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.format.FormatterRegistry;
 import org.springframework.web.servlet.config.annotation.WebMvcConfigurer;
